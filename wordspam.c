@@ -5,7 +5,6 @@
      char word[80] = "";
      char response = '\0';
 
-
      printf("Enter word: ");
      fgets(word, sizeof word, stdin);
      word[strlen(word) - 1] = '\0';
@@ -15,21 +14,13 @@
 
      if(response != 'Y' && response != 'y'){
 
-         printf("Why did you even run this program then :sob:");
+        printf("Why did you even run this program then :sob:");
 
      }else{
-      
              while(1 == 1){
-
                  printf("%s", word);
 
              }
-
-
      }
-
-       
-
-
     return 0;
   }
