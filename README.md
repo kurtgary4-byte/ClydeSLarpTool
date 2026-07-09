@@ -6,3 +6,5 @@ have fun!
 git clone https://github.com/kurtgary4-byte/ClydesLarpTool.git
 cd ClydesLarpTool
 sudo make install
+
+and then just type cllarptool in a terminal prompt
